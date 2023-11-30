@@ -16,7 +16,7 @@ public class Principal {
         System.out.println("Original Array : "+Arrays.toString(my_array));     
         
         for(int i=my_array.length; i >= Index_position; i++){
-            my_array[Index_position] = my_array[i-1];
+            my_array[Index_position] = newValue;
         }
         my_array[Index_position] = newValue;
         System.out.println("New Array: "+Arrays.toString(my_array));
